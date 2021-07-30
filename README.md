@@ -6,6 +6,9 @@ This project's aim is to make a calendar where I can keep track of my daily task
 ## Technologies
 This project uses HTML, CSS, JavaScript and moment()
 
+## Instructions
+Go to: https://amandajean007.github.io/Work-Day-Scheduler/ to run my app.
+
 ## Illustrations
 Screenshot
 
