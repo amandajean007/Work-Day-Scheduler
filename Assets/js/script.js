@@ -13,7 +13,7 @@ var hour3 = document.getElementById("three");
 var hour4 = document.getElementById("four");
 var hour5 = document.getElementById("five");
 
-
+// variables defining hours to compare with moment
 var nine = moment('09:00', 'HH:mm');
 var ten = moment('10:00', 'HH:mm');
 var eleven = moment('11:00', 'HH:mm');
@@ -26,7 +26,7 @@ var five = moment('17:00', 'HH:mm');
 var six = moment('18:00', 'HH:mm');
 
 
-
+// Functions to color code the scheduler
 function addClass9() {
     if(moment().isAfter(ten)) {
         hour9.className=("col-8 past");
@@ -179,7 +179,7 @@ function elevenAm() {
     localStorage.setItem("11 AM ", feedbackFieldEleven.value);
 }
 function twelvePm() {
-    localStorage.setItem("12 AM ", feedbackFieldTwelve.value);
+    localStorage.setItem("12 PM ", feedbackFieldTwelve.value);
 }
 function onePm() {
     localStorage.setItem("1 PM ", feedbackFieldOne.value);
